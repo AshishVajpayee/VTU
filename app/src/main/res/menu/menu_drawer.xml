@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message_id"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Mail Us" />
+        <item
+            android:id="@+id/nav_chat_id"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Chat" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send_id"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send Feedback" />
+            <item
+                android:id="@+id/nav_share_id"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+
+            <item
+                android:id="@+id/nav_settings_id"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+        </menu>
+    </item>
+
+    <footer
+        android:id="@+id/nav_log_version"
+        android:title="Version 1.0(Beta)" />
+
+</menu>
